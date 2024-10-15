@@ -1,0 +1,7 @@
+services:
+  
+  translate_sensor_to_dataframe:
+    container_name: translate_sensor_to_dataframe
+    build: .
+    restart: always
+    image: viccenzo/translate_sensor_to_dataframe
